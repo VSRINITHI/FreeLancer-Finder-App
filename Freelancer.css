@@ -1,0 +1,167 @@
+.wrapper {
+  display: flex;
+  /* align-items: center;
+  justify-content: left; */
+  /* margin-bottom: 150px; */
+  padding-left: 170px;
+  padding-top: 100px;
+  flex-direction: column;
+  height: 100%;
+  background-image: url('D:\REACT-PROJECTS\freelancer-finder\src\assets\freelancer7.jpg');
+  background-size: cover;
+  backdrop-filter: blur(15px);
+  height: 100vh;
+  /* background: linear-gradient(135deg, #87CEEB, #D2B48C); */
+}
+
+.wrapper-header {
+  /* position: absolute; */
+  top: 50px;
+  margin-left: 380px;
+  transform: translateX(-50%);
+  font-size: 24px;
+  color: 'black';
+  /* margin-top: 50px; */
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  /* justify-content: center; */
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+  /* margin-left: 50px; */
+}
+
+.input-box {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc; 
+  border-radius: 0; 
+  font-size: 1rem;
+}
+input:focus
+{
+  outline: none;
+  border-color: #2980b9;
+  box-shadow: 0 0 1px #2980b9;
+}
+
+.remember-forgot {
+  font-size: 12px;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.Auth-form-container {
+  display: flex;
+  padding: 0px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-right: 700px;
+ 
+}
+
+.Auth-header {
+  top: 90px;
+  margin-left: 270px;
+  transform: translateX(-50%);
+  position: absolute;
+  font-size: 24px;
+  /* top: 20px;
+  left: 50%;
+  transform: translateX(-50%); */
+  /* margin-left: 30px; */
+  color: black;
+} 
+.Auth-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: left;
+}
+
+.Auth-form-title {
+  text-align: center;
+  font-size: 24px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ccc; 
+  border-radius: 0; 
+  font-size: 1rem;
+  
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #2980b9;
+  box-shadow: 0 0 1px #2980b9;
+}
+
+.btn-primary {
+  width: 100%;
+  padding: 10px;
+  background-color:#2980b9;
+  color:white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+}
+
+/* button {
+  background-color: black;
+  color:white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+} */
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.register-link {
+  font-size: 14px;
+}
+
+.register-link a {
+  color: black;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+

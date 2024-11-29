@@ -1,8 +1,10 @@
 import React from "react";
-import './Login.css';
+import { Link } from "react-router-dom";
+import './Freelancer.css';
 const Login=()=>{
     return(
         <div className="wrapper">
+      <h1 className="wrapper-header">Looking For a Freelancer? </h1>
             <form action="">
                 <h1>Login</h1>
                 <div className="input-box">
@@ -12,11 +14,14 @@ const Login=()=>{
                     <input type="password" placeholder="Password" required/>
                 </div>
                 <div className="remember-forgot">
-                    <a>Forgot Password?</a>
+                    <p>Don't Remember? Forgot Password  </p>
                 </div>
-                <button type="submit">Login</button>
+                <button className="btn-primary" type="submit"><Link to='/'>Login</Link></button>
+                {/* <div>
+                <Link path='/Auth'>Register</Link>
+                </div> */}
                 <div className="register-link">
-                    <p>Or  <br/><br/><a href='#'>Doesn't Have An Account?  Signup</a></p>
+                   <br/> <p>Doesn't Have An Account? <Link to='/Auth'>Signup</Link></p>
                 </div>
             </form>
          </div>
